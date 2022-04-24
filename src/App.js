@@ -1,3 +1,5 @@
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
 import { Homepage, Navbar, Footer } from "./components";
 import { About, Contact, Product } from "./pages";
 
@@ -19,7 +21,7 @@ function App() {
           <Contact />
         </Route>
       </Switch>
-      <<Footer />
+      <Footer />
     </Router>
   );
 }
