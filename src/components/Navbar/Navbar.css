@@ -1,0 +1,15 @@
+.navbar {
+  margin-top: 55px;
+  margin-bottom: 89px;
+}
+.navbar .logo {
+  font-weight: 700;
+}
+
+.navbar .navlinks {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar .navlinks li {
+  margin-left: 33px;
+}
