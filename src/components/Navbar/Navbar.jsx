@@ -5,9 +5,9 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <>
-      <section className="flex flex-jc-sb">
-        <div>Restaurant</div>
-        <nav className="navbar close flex">
+      <section className="flex flex-jc-sb navbar">
+        <div className="logo">Burger Kings</div>
+        <nav className="navlinks close flex">
           <ul className="flex">
             <li>
               <Link to="/">Home</Link>
