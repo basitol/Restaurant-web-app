@@ -1,8 +1,12 @@
 import React from "react";
 import "./Homepage.css";
 
-const Homepage = () => {
-  return <div>Homepage</div>;
+const HomePage = () => {
+  return (
+    <>
+      <section>Homepage</section>
+    </>
+  );
 };
 
-export default Homepage;
+export default HomePage;
