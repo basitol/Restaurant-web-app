@@ -14,10 +14,12 @@ body {
   box-sizing: inherit;
   padding: inherit;
   margin: inherit;
+  width: 100vw;
   font-family: "Montserrat", sans-serif;
   background-color: #e7edfa;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 section {
@@ -35,4 +37,8 @@ a {
 
 .flex-jc-sb {
   justify-content: space-between;
+}
+
+.w-50 {
+  width: 50%;
 }
