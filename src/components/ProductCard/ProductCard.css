@@ -31,6 +31,7 @@
 
 .product-card p {
   margin-top: 23px;
+  /* margin-bottom: 200px; */
   padding: 0 36px;
   font-family: "Roboto";
   font-style: normal;
@@ -46,4 +47,11 @@
 .product-card .product-img {
   position: absolute;
   top: -45%;
+}
+
+.product-card .bottom {
+  bottom: 40px;
+  position: fixed;
+  display: flex;
+  align-items: flex-end;
 }
