@@ -1,0 +1,49 @@
+.product-card {
+  position: relative;
+  height: 400px;
+  width: 300px;
+
+  margin-top: 80px;
+  padding-top: 120px;
+
+  text-align: center;
+
+  background: linear-gradient(
+    152.79deg,
+    #e9f3fd 12.85%,
+    #e8e8ff 49.53%,
+    #e9f3fd 89.41%
+  );
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 60px;
+}
+
+.product-card .head {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+  text-transform: capitalize;
+
+  color: #000000;
+}
+
+.product-card p {
+  margin-top: 23px;
+  padding: 0 36px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.product-card .product-img {
+  position: absolute;
+  top: -45%;
+}
