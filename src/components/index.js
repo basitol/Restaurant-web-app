@@ -1,5 +1,5 @@
-import HomePage from "./Homepage/HomePage";
 import Navbar from "./Navbar/Navbar";
 import Footer from "./Footer/Footer";
+import ProductCard from "./ProductCard/ProductCard";
 
-export { HomePage, Navbar, Footer };
+export { Navbar, Footer, ProductCard };
