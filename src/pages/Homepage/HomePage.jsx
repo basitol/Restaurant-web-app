@@ -19,6 +19,7 @@ const HomePage = () => {
           <img src={bg} alt="burger" />
         </div>
       </section>
+      
     </>
   );
 };

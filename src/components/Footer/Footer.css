@@ -1,0 +1,29 @@
+.footer{
+    display: flex;
+    padding: 50px;
+    /* background-color: rgba(0,0,0,0.2); */
+}
+.f1{
+    padding-top: 20px;
+    display: block;
+    padding-right: 50px;
+}
+
+.subf1{
+    padding-top: 20px;
+}
+
+ul{
+    list-style: none;
+}
+.f2{
+    padding-right: 50px;
+}
+
+li{
+    padding-top: 15px;
+}
+
+.f3{
+    padding-top: 20px;
+}
